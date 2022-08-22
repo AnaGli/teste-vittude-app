@@ -1,0 +1,67 @@
+.login {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 50%;
+}
+
+.login h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    background-color: #f0f0f0;
+    width: 100%;
+    
+}
+
+.logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo a {
+    opacity: 0.3;
+}
+.logo:hover, .logo  a:focus {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.esqueceu {
+    text-align: right;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    text-decoration: underline;
+    color: blue;
+}
+
+.criar {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.criar a {
+    color: var( --primary-color);
+    text-decoration: underline;
+}
+

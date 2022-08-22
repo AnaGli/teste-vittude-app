@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    height: 15vh;
+    padding: 2rem 4rem;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 300;
+}
+
+.footer div {
+    width: 50%;
+}
